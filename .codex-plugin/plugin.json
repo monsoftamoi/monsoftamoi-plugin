@@ -7,7 +7,7 @@
     "url": "https://www.monsoftamoi.fr/"
   },
   "homepage": "https://www.monsoftamoi.fr/",
-  "repository": "https://github.com/aubertaa/monsoftamoi-plugin",
+  "repository": "https://github.com/monsoftamoi/monsoftamoi-plugin",
   "keywords": ["foyer", "kit", "pharmacie", "vokko"],
   "mcpServers": "./mcp.json",
   "interface": {
