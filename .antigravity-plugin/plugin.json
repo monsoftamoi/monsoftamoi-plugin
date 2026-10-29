@@ -1,0 +1,20 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "monsoftamoi",
+  "displayName": "MonSoftAMoi",
+  "version": "1.0.0",
+  "description": "Liste les applications MonSoftAMoi et décrit celle qu'on nomme. Sans compte, sans kit, sans posologie et sans appel vocal.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Quelles applications propose MonSoftAMoi ?",
+    "Je suis malvoyant, quelle application pour téléphoner ?",
+    "Décris Hub IA."
+  ],
+  "author": {
+    "name": "MonSoftAMoi",
+    "url": "https://www.monsoftamoi.fr/"
+  },
+  "homepage": "https://www.monsoftamoi.fr/",
+  "repository": "https://github.com/aubertaa/monsoftamoi-plugin",
+  "keywords": ["foyer", "kit", "pharmacie", "vokko"]
+}

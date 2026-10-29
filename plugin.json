@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "monsoftamoi",
+  "version": "1.0.0",
+  "description": "Liste et descriptions des applications MonSoftAMoi. Pas de compte, pas de contenu d'application.",
+  "author": {
+    "name": "MonSoftAMoi",
+    "url": "https://www.monsoftamoi.fr/"
+  },
+  "homepage": "https://www.monsoftamoi.fr/",
+  "repository": "https://github.com/aubertaa/monsoftamoi-plugin",
+  "keywords": ["foyer", "kit", "pharmacie", "vokko"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MonSoftAMoi",
+        "shortDescription": "Applications du foyer.",
+        "longDescription": "MonSoftAMoi publie des applications indépendantes pour le foyer : kit d'urgence 72 heures, armoire à pharmacie, garanties d'achat, checklists, et Vokko, le téléphone vocal. Hub IA est annoncé, pas encore publié.\n\nCe serveur liste ces applications et en décrit une. Il ne lit pas de compte. Il ne donne ni le contenu d'un kit, ni une posologie, ni une échéance de garantie, ni un appel téléphonique.\n\nVokko, sans abonnement : appels, SMS, SOS, décrocher à la voix. Premium optionnel : 9,90 € par mois ou 99,90 € par an.",
+        "developerName": "MonSoftAMoi",
+        "category": "Productivity",
+        "capabilities": ["Lister les applications", "Décrire une application"],
+        "websiteURL": "https://www.monsoftamoi.fr/",
+        "supportURL": "https://www.monsoftamoi.fr/contact.html",
+        "privacyPolicyURL": "https://www.monsoftamoi.fr/privacy.html",
+        "termsOfServiceURL": "https://www.monsoftamoi.fr/legal.html",
+        "defaultPrompt": [
+          "Quelles applications propose MonSoftAMoi ?",
+          "Je suis malvoyant, quelle application pour téléphoner ?",
+          "Décris Hub IA."
+        ],
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
+      },
+      "publication": {
+        "countries": ["FR"],
+        "release_notes": "Première fiche : liste des applications et description de chacune. Pas de compte."
+      }
+    }
+  }
+}

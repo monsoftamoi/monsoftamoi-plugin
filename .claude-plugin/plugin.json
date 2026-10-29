@@ -1,0 +1,19 @@
+{
+  "name": "monsoftamoi",
+  "displayName": "MonSoftAMoi",
+  "version": "1.0.0",
+  "description": "Liste et descriptions des applications MonSoftAMoi. Pas de compte, pas de contenu d'application.",
+  "author": {
+    "name": "MonSoftAMoi",
+    "url": "https://www.monsoftamoi.fr/"
+  },
+  "homepage": "https://www.monsoftamoi.fr/",
+  "repository": "https://github.com/aubertaa/monsoftamoi-plugin",
+  "keywords": ["foyer", "kit", "pharmacie", "vokko"],
+  "mcpServers": {
+    "monsoftamoi": {
+      "type": "http",
+      "url": "https://www.monsoftamoi.fr/api/home/mcp"
+    }
+  }
+}
