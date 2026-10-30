@@ -2,14 +2,14 @@
   "name": "monsoftamoi",
   "displayName": "MonSoftAMoi",
   "version": "1.0.0",
-  "description": "Liste et descriptions des applications MonSoftAMoi. Pas de compte, pas de contenu d'application.",
+  "description": "Liste et descriptions des applications MonSoftAMoi.",
   "author": {
     "name": "MonSoftAMoi",
     "url": "https://www.monsoftamoi.fr/"
   },
   "homepage": "https://www.monsoftamoi.fr/",
   "repository": "https://github.com/monsoftamoi/monsoftamoi-plugin",
-  "keywords": ["foyer", "kit", "pharmacie", "vokko"],
+  "keywords": ["monsoftamoi", "applications citoyennes", "kit", "urgence", "checklists", "garanties", "pharmacie", "vokko", "hub ia"],
   "mcpServers": {
     "monsoftamoi": {
       "type": "http",

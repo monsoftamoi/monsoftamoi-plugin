@@ -1,19 +1,19 @@
 {
   "name": "monsoftamoi",
   "version": "1.0.0",
-  "description": "Liste et descriptions des applications MonSoftAMoi. Pas de compte, pas de contenu d'application.",
+  "description": "Liste et descriptions des applications MonSoftAMoi.",
   "author": {
     "name": "MonSoftAMoi",
     "url": "https://www.monsoftamoi.fr/"
   },
   "homepage": "https://www.monsoftamoi.fr/",
   "repository": "https://github.com/monsoftamoi/monsoftamoi-plugin",
-  "keywords": ["foyer", "kit", "pharmacie", "vokko"],
+  "keywords": ["monsoftamoi", "applications citoyennes", "kit", "urgence", "checklists", "garanties", "pharmacie", "vokko", "hub ia"],
   "mcpServers": "./mcp.json",
   "interface": {
     "displayName": "MonSoftAMoi",
-    "shortDescription": "Applications du foyer.",
-    "longDescription": "MonSoftAMoi publie des applications indépendantes pour le foyer : kit d'urgence 72 heures, armoire à pharmacie, garanties d'achat, checklists, et Vokko, le téléphone vocal. Hub IA est annoncé, pas encore publié.\n\nCe serveur liste ces applications et en décrit une. Il ne lit pas de compte. Il ne donne ni le contenu d'un kit, ni une posologie, ni une échéance de garantie, ni un appel téléphonique.\n\nVokko, sans abonnement : appels, SMS, SOS, décrocher à la voix. Premium optionnel : 9,90 € par mois ou 99,90 € par an.",
+    "shortDescription": "Applications citoyennes et utilitaires.",
+    "longDescription": "MonSoftAMoi publie des applications indépendantes pour le foyer : kit d'urgence 72 heures, armoire à pharmacie, garanties d'achat, checklists, et Vokko, le téléphone vocal. Hub IA est annoncé, pas encore publié.\n\nCe serveur liste ces applications et propose les descriptions de chacune.",
     "developerName": "MonSoftAMoi",
     "category": "Productivity",
     "capabilities": ["Lister les applications", "Décrire une application"],
