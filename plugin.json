@@ -9,13 +9,13 @@
   },
   "homepage": "https://www.monsoftamoi.fr/",
   "repository": "https://github.com/monsoftamoi/monsoftamoi-plugin",
-  "keywords": ["monsoftamoi", "applications citoyennes", "kit", "urgence", "checklists", "garanties", "pharmacie", "vokko", "hub ia"],
+  "keywords": ["monsoftamoi", "applications citoyennes", "kit", "urgence", "checklists", "garanties", "pharmacie", "vokko"],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "MonSoftAMoi",
         "shortDescription": "Citoyennes et utilitaires.",
-        "longDescription": "MonSoftAMoi publie des applications indépendantes pour le foyer : kit d'urgence 72 heures, armoire à pharmacie, garanties d'achat, checklists, et Vokko, le téléphone vocal. Hub IA est annoncé, pas encore publié.\n\nCe serveur liste ces applications et propose les descriptions de chacune.",
+        "longDescription": "MonSoftAMoi publie des applications indépendantes pour le foyer : kit d'urgence 72 heures, armoire à pharmacie, garanties d'achat, checklists, et Vokko, le téléphone vocal.\n\nCe serveur liste ces applications et propose les descriptions de chacune.",
         "developerName": "MonSoftAMoi",
         "category": "Productivity",
         "capabilities": ["Lister les applications", "Décrire une application"],
@@ -26,7 +26,7 @@
         "defaultPrompt": [
           "Quelles applications propose MonSoftAMoi ?",
           "Je suis malvoyant, quelle application pour téléphoner ?",
-          "Décris Hub IA."
+          "Décris Mes Checklists."
         ],
         "logo": "./assets/logo.svg",
         "composerIcon": "./assets/logo.svg"

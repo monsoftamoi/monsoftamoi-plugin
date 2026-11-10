@@ -8,7 +8,7 @@
   "suggestedPrompts": [
     "Quelles applications propose MonSoftAMoi ?",
     "Je suis malvoyant, quelle application pour téléphoner ?",
-    "Décris Hub IA."
+    "Décris Mes Checklists."
   ],
   "author": {
     "name": "MonSoftAMoi",
@@ -16,5 +16,5 @@
   },
   "homepage": "https://www.monsoftamoi.fr/",
   "repository": "https://github.com/monsoftamoi/monsoftamoi-plugin",
-  "keywords": ["monsoftamoi", "applications citoyennes", "kit", "urgence", "checklists", "garanties", "pharmacie", "vokko", "hub ia"]
+  "keywords": ["monsoftamoi", "applications citoyennes", "kit", "urgence", "checklists", "garanties", "pharmacie", "vokko"]
 }
