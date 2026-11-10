@@ -3,7 +3,7 @@
   "name": "monsoftamoi",
   "displayName": "MonSoftAMoi",
   "version": "1.0.0",
-  "description": "Liste et descriptions des applications MonSoftAMoi.",
+  "description": "Vos applications MonSoftAMoi : citoyennes ou utilitaires, pour le quotidien de chacun, sans impact environnemental inconsidéré.",
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
     "Quelles applications propose MonSoftAMoi ?",

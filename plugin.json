@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "monsoftamoi",
   "version": "1.0.0",
-  "description": "Liste et descriptions des applications MonSoftAMoi. Pas de compte, pas de contenu d'application.",
+  "description": "Vos applications MonSoftAMoi : citoyennes ou utilitaires, pour le quotidien de chacun, sans impact environnemental inconsidéré.",
   "author": {
     "name": "MonSoftAMoi",
     "url": "https://www.monsoftamoi.fr/"
@@ -14,7 +14,7 @@
     "com.openai": {
       "interface": {
         "displayName": "MonSoftAMoi",
-        "shortDescription": "Applications citoyennes et utilitaires.",
+        "shortDescription": "Citoyennes et utilitaires.",
         "longDescription": "MonSoftAMoi publie des applications indépendantes pour le foyer : kit d'urgence 72 heures, armoire à pharmacie, garanties d'achat, checklists, et Vokko, le téléphone vocal. Hub IA est annoncé, pas encore publié.\n\nCe serveur liste ces applications et propose les descriptions de chacune.",
         "developerName": "MonSoftAMoi",
         "category": "Productivity",
